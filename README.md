@@ -1,0 +1,1 @@
+This is admin panel's frontend, created using react.
