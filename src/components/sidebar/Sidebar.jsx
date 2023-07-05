@@ -47,10 +47,12 @@ const Sidebar = () => {
                                 Users
                             </li>
                         </Link> 
-                        <li className={`sidebarListItem ${id===4 ? "active":""}`} onClick={() => setId(4)}>
-                            <Storefront className="sidebarIcon" />
-                            Products
-                        </li>
+                        <Link to="/products">
+                            <li className={`sidebarListItem ${id===4 ? "active":""}`} onClick={() => setId(4)}>
+                                <Storefront className="sidebarIcon" />
+                                Products
+                            </li>
+                        </Link>
                         <li className={`sidebarListItem ${id===5 ? "active":""}`} onClick={() => setId(5)}>
                             <AttachMoney className="sidebarIcon" />
                             Transactions
