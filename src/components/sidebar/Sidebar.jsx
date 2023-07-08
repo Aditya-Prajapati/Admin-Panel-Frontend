@@ -29,7 +29,7 @@ const Sidebar = () => {
                                 Home
                             </li>
                         </Link>
-                        <li className={`sidebarListItem ${id===1 ? "active":""}`} onClick={() => setId(1)}>
+{/*                         <li className={`sidebarListItem ${id===1 ? "active":""}`} onClick={() => setId(1)}>
                             <Timeline className="sidebarIcon" />
                             Analytics
                         </li>
@@ -40,7 +40,7 @@ const Sidebar = () => {
                     </ul>
 
                     <h3 className="sidebarTitle">Quick Menu</h3>
-                    <ul className="sidebarList">
+                    <ul className="sidebarList"> */}
                         <Link to="/users">
                             <li className={`sidebarListItem ${id===3 ? "active":""}`} onClick={() => setId(3)}>
                                 <PermIdentity className="sidebarIcon" />
@@ -53,7 +53,7 @@ const Sidebar = () => {
                                 Products
                             </li>
                         </Link>
-                        <li className={`sidebarListItem ${id===5 ? "active":""}`} onClick={() => setId(5)}>
+{/*                         <li className={`sidebarListItem ${id===5 ? "active":""}`} onClick={() => setId(5)}>
                             <AttachMoney className="sidebarIcon" />
                             Transactions
                         </li> 
@@ -92,7 +92,7 @@ const Sidebar = () => {
                         <li className={`sidebarListItem ${id===12 ? "active":""}`} onClick={() => setId(12)}>
                             <Report className="sidebarIcon" />
                             Reports
-                        </li>
+                        </li> */}
                     </ul>
                 </div>
             </div>
